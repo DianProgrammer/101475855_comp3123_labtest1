@@ -20,8 +20,8 @@ if (!fs.existsSync(filePath)) {
 process.chdir(filePath);
 
 //for loop to iterate 10 times
-//Goal : Make 10 files with name [log1.txt, log2.txt, log3.txt, log4.txt, log5.txt, log6.txt, log7.txt, log8.txt, log9.txt, log10.txt]
-for (let i = 1; i <= 10; i++) {
+//Goal : Make 10 files with name [log0.txt, log1.txt, log2.txt, log3.txt, log4.txt, log5.txt, log6.txt, log7.txt, log8.txt, log9.txt]
+for (let i = 0; i < 10; i++) {
 
     //make file name with log + i + .txt
     const fName = `log${i}.txt`;
